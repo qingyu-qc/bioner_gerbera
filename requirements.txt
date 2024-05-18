@@ -1,0 +1,15 @@
+numpy==1.19.2
+pandas==1.1.3
+requests==2.24.0
+xmltodict==0.12.0
+tqdm==4.61.2
+transformers==3.0.0
+accelerate==0.3.0
+pymongo==3.12.0
+Flask
+faiss
+bioregistry
+faiss-gpu
+libfaiss-avx2
+seqeval
+wandb
