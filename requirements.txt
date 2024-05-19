@@ -9,7 +9,5 @@ pymongo==3.12.0
 Flask
 faiss
 bioregistry
-faiss-gpu
-libfaiss-avx2
 seqeval
 wandb
