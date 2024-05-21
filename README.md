@@ -10,9 +10,6 @@ conda activate GERBERA
 conda install pytorch==1.9.0 cudatoolkit=10.2 -c pytorch
 conda install faiss-gpu libfaiss-avx2 -c conda-forge
 
-# Check if cuda is available
-python -c "import torch;print(torch.cuda.is_available())"
-
 # Install GERBERA
 git clone https://github.com/qingyu-qc/bioner_gerbera.git
 cd bioner_gerbera
