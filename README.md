@@ -8,7 +8,6 @@ To set up the GERBERA environment, please follow these steps. Ensure you have th
 conda create -n GERBERA python=3.7
 conda activate GERBERA
 conda install pytorch==1.9.0 cudatoolkit=10.2 -c pytorch
-conda install faiss-gpu libfaiss-avx2 -c conda-forge
 
 # Install GERBERA
 git clone https://github.com/qingyu-qc/bioner_gerbera.git
@@ -61,7 +60,7 @@ python run_ner.py
 After intial multi-task training, further finetuning the saved model with specific BioNER dataset.
 ```
 python run_ner.py 
---model_name_or_path ./gerberal_model/RoBERTa-ncbi # saved multi-task model
+--model_name_or_path ./gerberal_model/RoBERTa-ncbi # or "Euanyu/GERBERA-NCBI"
 --data_dir NERdata/ 
 --labels NERdata/NCBI-disease/labels.txt 
 --output_dir ./gerbera_model 
