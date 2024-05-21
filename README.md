@@ -24,7 +24,7 @@ pip install -r requirements.txt
 Please download the necessary BioNER and general-domain NER datasets from [here](https://drive.google.com/drive/folders/1InU7REZ-fXBVglUAuyH4U8v5X6x98OD7?usp=drive_link). Ensure the datasets are placed in the correct directory structure as expected by the training scripts.
 
 ## Models
-You can download our GERBERA model from [here](#) for BioNER tasks, including disease, Gene, Chemical, Species, DNA, RNA, Cell type and Cell line.
+You can download our GERBERA model from [here](https://huggingface.co/Euanyu/GERBERA-NCBI) for BioNER tasks, including disease, Gene, Chemical, Species, DNA, RNA, Cell type and Cell line.
 
 ## Download the baseline model
 Download the pre-trained baseline model for initialization.
