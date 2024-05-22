@@ -100,6 +100,8 @@ python run_eval.py
 --overwrite_output_dir
 ```
 
+## Colab example
+This [Colab tutorial](https://colab.research.google.com/drive/1U4viEJQ-QIxw5txqzHdILFNmGpJ4DgOf?usp=sharing) guides you through setting up the GERBERA environment, running model training scripts, and performing evaluations. Additionally, it includes instructions for downloading our pre-trained model from Hugging Face and demonstrates how to conduct evaluations using this model.
 
 ## Contact Information
 For help or issues using GERBERA, please submit a GitHub issue. Please contact with Yu Yin(`yinyu201906 (at) gmail (dot) com`) for communication related to GERBERA.
