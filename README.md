@@ -99,7 +99,15 @@ python run_eval.py
 --do_predict 
 --overwrite_output_dir
 ```
-
+## Citation
+```bibtex
+@article{yin2024augmenting,
+  title={Augmenting Biomedical Named Entity Recognition with General-domain Resources},
+  author={Yin, Yu and Kim, Hyunjae and Xiao, Xiao and Wei, Chih Hsuan and Kang, Jaewoo and Lu, Zhiyong and Xu, Hua and Fang, Meng and Chen, Qingyu},
+  journal={arXiv preprint arXiv:2406.10671},
+  year={2024}
+}
+```
 ## Colab example
 This [Colab tutorial](https://colab.research.google.com/drive/1U4viEJQ-QIxw5txqzHdILFNmGpJ4DgOf?usp=sharing) guides you through setting up the GERBERA environment, running model training scripts, and performing evaluations. Additionally, it includes instructions for downloading our pre-trained model from Hugging Face and demonstrates how to conduct evaluations using this model.
 
