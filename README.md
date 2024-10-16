@@ -1,5 +1,5 @@
 # GERBERA
-We present Gerbera (Transfer Learning for **Ge**ne**r**al-to-**B**iomedical **E**ntity **R**ecognition **A**ugmentation), a multi-task learning method that utilizes knowledge from general-domain NER datasets to improve performance on BioNER datasets, specially on limited-sized dataset.
+We present Gerbera (Transfer Learning for **Ge**ne**r**al-to-**B**iomedical **E**ntity **R**ecognition **A**ugmentation), a multi-task learning method that utilizes knowledge from general-domain NER datasets to improve performance on BioNER datasets, specially on limited-sized dataset. Please refer to our paper [Augmenting biomedical named entity recognition with general-domain resources](https://www.sciencedirect.com/science/article/pii/S1532046424001497) for more details.
 
 ## Install GERBERA Environment
 To set up the GERBERA environment, please follow these steps. Ensure you have the correct version of [conda](https://pytorch.org/) version.
@@ -101,12 +101,15 @@ python run_eval.py
 ```
 ## Citation
 ```bibtex
-@article{yin2024augmenting,
-  title={Augmenting Biomedical Named Entity Recognition with General-domain Resources},
-  author={Yin, Yu and Kim, Hyunjae and Xiao, Xiao and Wei, Chih Hsuan and Kang, Jaewoo and Lu, Zhiyong and Xu, Hua and Fang, Meng and Chen, Qingyu},
-  journal={arXiv preprint arXiv:2406.10671},
-  year={2024}
-}
+@article{YIN2024104731,
+title = {Augmenting biomedical named entity recognition with general-domain resources},
+author = {Yu Yin and Hyunjae Kim and Xiao Xiao and Chih Hsuan Wei and Jaewoo Kang and Zhiyong Lu and Hua Xu and Meng Fang and Qingyu Chen},
+journal = {Journal of Biomedical Informatics},
+volume = {159},
+pages = {104731},
+year = {2024},
+issn = {1532-0464},
+doi = {https://doi.org/10.1016/j.jbi.2024.104731}
 ```
 ## Colab example
 This [Colab tutorial](https://colab.research.google.com/drive/1U4viEJQ-QIxw5txqzHdILFNmGpJ4DgOf?usp=sharing) guides you through setting up the GERBERA environment, running model training scripts, and performing evaluations. Additionally, it includes instructions for downloading our pre-trained model from Hugging Face and demonstrates how to conduct evaluations using this model.
