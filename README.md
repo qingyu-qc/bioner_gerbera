@@ -99,7 +99,19 @@ python run_eval.py
 --do_predict 
 --overwrite_output_dir
 ```
+## Colab example
+This [Colab tutorial](https://colab.research.google.com/drive/1U4viEJQ-QIxw5txqzHdILFNmGpJ4DgOf?usp=sharing) guides you through setting up the GERBERA environment, running model training scripts, and performing evaluations. Additionally, it includes instructions for downloading our pre-trained model from Hugging Face and demonstrates how to conduct evaluations using this model.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+
+## Contact Information
+For help or issues using GERBERA, please submit a GitHub issue. Please contact with Yu Yin(`yinyu201906 (at) gmail (dot) com`) for communication related to GERBERA.
+
 ## Citation
+
+Yin, Y., Kim, H., Xiao, X., Wei, C.H., Kang, J., Lu, Z., Xu, H., Fang, M. and Chen, Q., 2024. Augmenting Biomedical Named Entity Recognition with General-domain Resources. Journal of Biomedical Informatics.
+
 ```bibtex
 @article{YIN2024104731,
 title = {Augmenting biomedical named entity recognition with general-domain resources},
@@ -111,11 +123,3 @@ year = {2024},
 issn = {1532-0464},
 doi = {https://doi.org/10.1016/j.jbi.2024.104731}
 ```
-## Colab example
-This [Colab tutorial](https://colab.research.google.com/drive/1U4viEJQ-QIxw5txqzHdILFNmGpJ4DgOf?usp=sharing) guides you through setting up the GERBERA environment, running model training scripts, and performing evaluations. Additionally, it includes instructions for downloading our pre-trained model from Hugging Face and demonstrates how to conduct evaluations using this model.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
-
-## Contact Information
-For help or issues using GERBERA, please submit a GitHub issue. Please contact with Yu Yin(`yinyu201906 (at) gmail (dot) com`) for communication related to GERBERA.
