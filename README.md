@@ -3,6 +3,8 @@ We present Gerbera (Transfer Learning for **Ge**ne**r**al-to-**B**iomedical **E*
 
 ## Install GERBERA Environment
 To set up the GERBERA environment, please follow these steps. Ensure you have the correct version of [conda](https://pytorch.org/) version.
+
+For PyTorch installation via Conda, you may encounter errors. In such cases, try using [pip](https://pytorch.org/) instead, as the Conda installation may have issues. For more details, see this [page](https://github.com/pytorch/pytorch/issues/123097).
 ```
 # Install torch
 conda create -n GERBERA python=3.7
@@ -113,6 +115,9 @@ doi = {https://doi.org/10.1016/j.jbi.2024.104731}
 ```
 ## Colab example
 This [Colab tutorial](https://colab.research.google.com/drive/1U4viEJQ-QIxw5txqzHdILFNmGpJ4DgOf?usp=sharing) guides you through setting up the GERBERA environment, running model training scripts, and performing evaluations. Additionally, it includes instructions for downloading our pre-trained model from Hugging Face and demonstrates how to conduct evaluations using this model.
+
+## Training demo
+This [Colab tutorial](https://colab.research.google.com/drive/1u736iIcoom9KSlsZZWWwImNpnW75SOuJ?usp=sharing) provides detailed instructions for multi-task learning and the subsequent fine-tuning running, including the minimum package installation requirements and additional data operations. 
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
